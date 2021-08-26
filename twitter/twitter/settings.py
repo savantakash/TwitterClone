@@ -14,7 +14,6 @@ import cloudinary.uploader
 import cloudinary.api
 
 
-
 from pathlib import Path
 import os
 
@@ -125,15 +124,21 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
-STATIC_URL = '/static/'
-cloudinary.config(
-  cloud_name = "asdaf",
-  api_key = "727992255772456",
-  api_secret = "flwQUSR64bDv7zzhJOYsCn_UQBc"
-  )
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS =[
+
+# Cloudinary configuration files
+cloudinary.config(
+    # cloud name
+    cloud_name="asdaf",
+    # api_key
+    api_key="727992255772456",
+    # api_secret_key
+    api_secret="flwQUSR64bDv7zzhJOYsCn_UQBc"
+)
+
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [
     BASE_DIR / 'static'
 ]
 
