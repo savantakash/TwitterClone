@@ -1,10 +1,10 @@
-# Twitter Clone
+# Twitter Clone:
 
 Let’s make simple Twitter. Users can post tweets and see everyone’s them.
 
 [Checkout Live demo](https://twitterappa.herokuapp.com/)
 
-# Tech used
+# Technology used:
 * Html
 * Css
 * Bootstrap
