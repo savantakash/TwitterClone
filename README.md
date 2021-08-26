@@ -6,7 +6,7 @@ So there are not user accounts and follow function. You can challenge after you 
 ```
 Check out [LIVE DEMO](https://techis-wd-twitter-clone.herokuapp.com/) here!!
 ## Screenshot
-<img src="https://github.com/savantakash/TwitterClone/blob/main/Screenshot%202021-08-26%20at%204.16.39%20PM.png" width="400" />
+<img src="https://github.com/savantakash/TwitterClone/blob/main/Screenshot%202021-08-26%20at%204.16.39%20PM.png" width="200" />
 
 ## Technology used
 * Html
