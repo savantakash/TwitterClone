@@ -9,6 +9,7 @@ https://docs.djangoproject.com/en/3.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
+# library for cloudinary
 import cloudinary
 import cloudinary.uploader
 import cloudinary.api
@@ -29,8 +30,8 @@ SECRET_KEY = 'qb8=f_klw6roe_)!ii#n-v&yx37_oa(b*#a3e5%y@zwp#!1z5q'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
-ALLOWED_HOSTS = []
+# added
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -48,6 +49,8 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    # added middleware dependency
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -82,8 +85,12 @@ WSGI_APPLICATION = 'twitter.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd3vr8mp5aov701',
+        'USER': 'eiseecdyxiigjm',
+        'HOST': 'ec2-18-214-238-28.compute-1.amazonaws.com',
+        'PORT': 5432,
+        'PASSWORD': '52e18465947fd24335f531f011632597c9b3e07a284c7e6b18d9ee678b9c8ae4',
     }
 }
 
