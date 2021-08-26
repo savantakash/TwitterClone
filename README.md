@@ -4,7 +4,7 @@ Let's make simple Twitter. Users can post tweets and see everyone's them.
 To make the project simple, we do not have a sign/login function.
 So there are not user accounts and follow function. You can challenge after you finish the course.
 ```
-Check out [LIVE DEMO](https://techis-wd-twitter-clone.herokuapp.com/) here!!
+Check out [LIVE DEMO](https://twitterappa.herokuapp.com//) here!!
 ## Screenshot
 <img src="https://github.com/savantakash/TwitterClone/blob/main/Screenshot%202021-08-26%20at%204.16.39%20PM.png" width="200" />
 
