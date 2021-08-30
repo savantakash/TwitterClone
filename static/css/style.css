@@ -131,6 +131,10 @@ ul {
     list-style: none;
 }
 
+.posts img{
+    max-width:100%;
+}
+
 .posts li .menu_icon {
     width: 20px;
     position: absolute;
@@ -160,9 +164,7 @@ ul {
 .posts li .logo img {
     width: 60%;
 }
-.posts img{
-    max-width:100%;
-}
+
 
 .posts li .name_body {
     flex-basis: 85%;
